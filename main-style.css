@@ -1,0 +1,76 @@
+html, body, ul, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body, nav, ul, li {
+    display: inline;
+}
+
+header {
+	padding: 0 0 0.5em 0;
+}
+
+img { border: none; }
+
+ul {
+	list-style: none;
+}
+
+h1 {
+	margin: 0;
+	padding: 0.5em;
+	font-weight: normal;
+    font-size: 3em;
+    line-height: 1;
+}
+
+a, a:link, a:visited, a:active { 
+	color: black;
+	text-decoration: none; 
+	background-color: transparent;
+}
+
+.main-menu a {
+	padding: 0.5em;
+}
+
+.main-menu a:hover {
+	color: white;
+	background: black;
+	text-decoration: none; 
+}
+
+.main-banner {
+	padding: 0 0 0.5em 0;
+	background: grey;
+	height: 250px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+footer {
+	padding: 0.5em 0 0.5em 0;
+	font-size: 0.8em;
+}
+
+.footer-menu a {
+	padding: 0.5em;
+}
+
+.footer-menu a:hover {
+	text-decoration: underline; 
+	
+}
+
+.wrapper {
+	text-align: center;
+}
+
+
+
