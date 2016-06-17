@@ -1,19 +1,40 @@
-.main-banner {
-	background-image: url('./images/wine-banner.jpg');
+.banner-small {
+	background: url('./images/wine-banner.jpg') no-repeat center center;
+	background-size: 1000px;
+}
+
+.banner-large {
+	background: url('./images/wine-banner.jpg') no-repeat center center;
+	background-size: 100%;
 }
 
 
-.home-content {
+#home-content {
 	background-color: grey;
 	padding: 2em;
 	text-align: center;
 }
 
-div .promo {
+div .promo-small {
+	display: block;
+	height: 400px;
+	min-width: 300px;
+	max-width: 400px;
+	min-height: 300px;
+	background: black;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+div .promo-large {
 	display: inline-block;
-	width: 200px;
+	width: 25%;
+	min-width: 200px;
 	height: 300px;
 	background: black;
+	margin-right: auto;
+	margin-left: auto;
 	
 }
 
@@ -29,7 +50,7 @@ img {
 	top: -35%;
 }
 
-.home-content p {
+#home-content p {
 	color: white;
 	padding: 1em;
 }
